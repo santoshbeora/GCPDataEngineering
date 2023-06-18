@@ -1,0 +1,53 @@
+[
+    {
+      "name": "employee_id",
+      "type": "INT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "first_name",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "last_name",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "email",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "phone_number",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "hire_date",
+      "type": "DATE",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "job_id",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "salary",
+      "type": "FLOAT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "manager_id",
+      "type": "INT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "department_id",
+      "type": "INT64",
+      "mode": "NULLABLE"
+    }
+  ]
+

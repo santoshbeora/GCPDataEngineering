@@ -1,0 +1,15 @@
+CREATE TABLE employees (
+  EMPLOYEE_ID INTEGER,
+  FIRST_NAME VARCHAR(50),
+  LAST_NAME VARCHAR(50),
+  EMAIL VARCHAR(100),
+  PHONE_NUMBER VARCHAR(20),
+  HIRE_DATE VARCHAR(20),
+  JOB_ID VARCHAR(50),
+  SALARY INTEGER,
+  COMMISSION_PCT VARCHAR(20),
+  MANAGER_ID INTEGER,
+  DEPARTMENT_ID INTEGER
+);
+
+psql -h 34.93.151.17 -U postgres -d santosh -c "\copy employees FROM 'gs://personal_projects_by_santosh/data/employees.csv' CSV HEADER DELIMITER ','"
