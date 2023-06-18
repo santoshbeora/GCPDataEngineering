@@ -1,1 +1,0 @@
-project_id  = "packt-data-eng-on-gcp"
